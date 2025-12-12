@@ -21,3 +21,5 @@ class Post(db.Model):
 
     # Foreign Key → links each post to a user
     user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+
+    #hey here we using some test for pulling operatons
