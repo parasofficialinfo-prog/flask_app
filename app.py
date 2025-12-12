@@ -25,3 +25,5 @@ app = create_app()
 # Run the server when executing: python app.py
 if __name__ == "__main__":
     app.run(debug=True)
+
+    #updated app file 
